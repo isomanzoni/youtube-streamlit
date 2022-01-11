@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image
-import pyodbc
+
 
 st.title('stremlit interactive')
 left_column,right_column = st.columns(2)

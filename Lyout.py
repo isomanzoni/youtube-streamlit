@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image
-import pyodbc
+
 st.title('seramlit Lyout')
 st.sidebar.write('Side Bar')
 text = st.sidebar.text_input('Would you tell us your hobby?')
