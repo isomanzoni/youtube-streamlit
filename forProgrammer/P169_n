@@ -1,0 +1,30 @@
+class Square():
+    def __init__(self, s1):
+        self.s1 = s1
+
+    def calculate_perimeter(self):
+        return self.s1 * 4
+
+    def change_size(self, new_size):
+        self.s1 += new_size
+
+a_square = Square(100)
+print(a_square.s1)
+
+a_square.change_size(200)
+print(a_square.s1)
+
+class Square1():
+    def __init__(self,side):
+        self.side=side
+        
+    def culculate_primeter(self):
+        return self.side*4
+    
+    def change_size(self, new_size):
+        self.side += new_size
+b_square = Square1(100)
+print(b_square.side)
+
+b_square.change_size(200)
+print(b_square.side)
